@@ -21,6 +21,7 @@ import { EditorComponent } from './editor/editor.component';
 import { EditSceneComponent } from './edit-scene/edit-scene.component';
 import { CharactersComponent } from './characters/characters.component';
 import { MapComponent } from './map/map.component';
+import { DisplayComponent } from './display/display.component';
 
 // firebase credentials export
 export const firebaseConfig = {
@@ -39,7 +40,8 @@ export const firebaseConfig = {
     EditorComponent,
     EditSceneComponent,
     CharactersComponent,
-    MapComponent
+    MapComponent,
+    DisplayComponent
   ],
   imports: [
     BrowserModule,

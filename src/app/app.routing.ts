@@ -8,6 +8,7 @@ import { EditorComponent } from './editor/editor.component';
 import { IntroComponent } from './intro/intro.component';
 import { CharactersComponent } from './characters/characters.component';
 import { MapComponent } from './map/map.component';
+import { DisplayComponent } from './display/display.component';
 
 const appRoutes: Routes = [
   {
@@ -33,6 +34,10 @@ const appRoutes: Routes = [
   {
     path: 'map',
     component: MapComponent
+  },
+  {
+    path: 'display',
+    component: DisplayComponent
   }
 ];
 
